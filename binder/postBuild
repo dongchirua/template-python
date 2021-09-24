@@ -1,6 +1,18 @@
+#!/usr/bin/env bash
+
+# run matplotlib once to generate the font cache
+python -c "import matplotlib as mpl; mpl.use('Agg'); import pylab as plt; fig, ax = plt.subplots(); fig.savefig('test.png')"
+
+test -e test.png && rm test.png
+  
+python -m nltk.downloader popular
+
+python -m pip install --user postgres_kernel
+
 jupyter labextension install \
   @jupyter-widgets/jupyterlab-manager \
   jupyterlab-topbar-extension \
-  jupyterlab-system-monitor \
-  jupyterlab-topbar-text
-  
+  jupyterlab-theme-toggle \
+  jupyterlab-logout \
+  nbgather
+

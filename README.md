@@ -1,10 +1,10 @@
 # Template materials in Python
 
-Example repository to create an environment with course materials in Python.
+Example repository to create an environment in Python.
 
 ## Try it on Binder
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/plasmabio/materials-example/master?urlpath=%2Flab/)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dongchirua/template-workspace/master)
 
 ## Structure of the repo
 

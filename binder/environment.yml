@@ -1,18 +1,40 @@
-name: plasmabio-template-python
-# channels priority
-# see https://bioconda.github.io/
-# conda-forge has highest prioriy
+name: venv
 channels:
-  - defaults
-  - bioconda
+  - pyg
+  - pytorch
   - conda-forge
+  - defaults
 dependencies:
-  - python>=3.7
-  - numpy
-  - pandas
-  - matplotlib
-  - jupyterlab=2
+  - python=3.9.*
+  - jupyterlab>=3.1.*
+  - conda-lock
+  - setuptools
+  - pytorch=1.10.*
+  - torchvision
+  - torchaudio
+  - pyg
+  - pytorch-lightning
+  - gensim
+  - pydot
+  - graphviz
+  - nltk
+  - networkx
+  - tensorboardX
+  - seaborn
   - nodejs
   - nbresuse
   - psutil
-  - pip
+  - pandas
+  - pip:
+    - lightning-bolts
+    - ogb
+    - crc32c  # accelerate tensorboardX
+    - soundfile # accelerate tensorboardX
+    - jupyterlab_latex
+    - jupyter-tensorboard
+    - jupyterlab-git
+    - jupyter-archive
+    - jupyterlab-tour
+    - ipympl
+    - jupyterlab-s3-browser
+    
