@@ -1,21 +1,25 @@
-name: graph-torch
-# channels priority
-# conda-forge has highest prioriy
+name: venv
 channels:
   - pyg
   - pytorch
   - conda-forge
   - defaults
 dependencies:
-  - python=3.8
-  - pip
-  - pytorch
+  - python=3.8.*
+  - conda-lock
+  - pytorch=1.10.*
   - torchvision
   - torchaudio
   - pyg
+  - pytorch-lightning
   - gensim
+  - pydot
+  - graphviz
+  - nltk
+  - networkx
+  - tensorboardX
   - pip:
-    - pydot
-    - python-graphviz
-    - pytorch-lightning
-    - nltk
+    - lightning-bolts
+    - ogb
+    - crc32c  # accelerate tensorboardX
+    - soundfile # accelerate tensorboardX
