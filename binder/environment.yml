@@ -6,30 +6,14 @@ channels:
   - defaults
 dependencies:
   - python=3.9.*
-  - jupyterlab>=3.1.*
+  - jupyterlab>=3.1.* # enable debugger for notebook
+  - ipykernel>=6  # enable debugger for notebook
   - conda-lock
   - setuptools
-  - pytorch=1.10.*
-  - torchvision
-  - torchaudio
-  - pyg
-  - pytorch-lightning
-  - gensim
-  - pydot
-  - graphviz
-  - nltk
-  - networkx
-  - tensorboardX
   - seaborn
-  - nodejs
-  - nbresuse
-  - psutil
   - pandas
   - pip:
-    - lightning-bolts
-    - ogb
-    - crc32c  # accelerate tensorboardX
-    - soundfile # accelerate tensorboardX
+    - jupyter-resource-usage
     - jupyterlab_latex
     - jupyter-tensorboard
     - jupyterlab-git
@@ -37,4 +21,5 @@ dependencies:
     - jupyterlab-tour
     - ipympl
     - jupyterlab-s3-browser
+
     

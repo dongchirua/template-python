@@ -13,3 +13,7 @@ git
 openssh-client
 htop
 awscli
+curl
+telnet
+postgresql-client
+redis-tools
