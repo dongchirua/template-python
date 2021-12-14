@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 # run matplotlib once to generate the font cache
 python -c "import matplotlib as mpl; mpl.use('Agg'); import pylab as plt; fig, ax = plt.subplots(); fig.savefig('test.png')"
 
@@ -8,7 +10,8 @@ jupyter labextension install \
   jupyterlab-topbar-extension \
   jupyterlab-system-monitor \
   jupyterlab-topbar-text \
-  @jupyterlab/latex
+  @jupyterlab/latex \
+  jupyterlab_tensorboard
   
 python -m nltk.downloader popular
 
