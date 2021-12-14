@@ -18,6 +18,10 @@ dependencies:
   - nltk
   - networkx
   - tensorboardX
+  - jupyterlab
+  - nodejs
+  - nbresuse
+  - psutil
   - pip:
     - lightning-bolts
     - ogb
