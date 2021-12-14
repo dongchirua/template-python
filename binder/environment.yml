@@ -5,8 +5,9 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - python=3.8.*
+  - python=3.9.*
   - conda-lock
+  - setuptools
   - pytorch=1.10.*
   - torchvision
   - torchaudio
@@ -18,12 +19,16 @@ dependencies:
   - nltk
   - networkx
   - tensorboardX
+  - seaborn
   - jupyterlab
   - nodejs
   - nbresuse
   - psutil
+  - pandas
   - pip:
     - lightning-bolts
     - ogb
     - crc32c  # accelerate tensorboardX
     - soundfile # accelerate tensorboardX
+    - jupyterlab_latex
+    - postgres_kernel
