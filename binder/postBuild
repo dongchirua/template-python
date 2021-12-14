@@ -11,3 +11,5 @@ jupyter labextension install \
   @jupyterlab/latex
   
 python -m nltk.downloader popular
+
+pip install postgres_kernel --user

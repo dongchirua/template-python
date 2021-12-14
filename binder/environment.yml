@@ -31,4 +31,3 @@ dependencies:
     - crc32c  # accelerate tensorboardX
     - soundfile # accelerate tensorboardX
     - jupyterlab_latex
-    - postgres_kernel
