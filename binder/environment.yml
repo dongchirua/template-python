@@ -12,6 +12,7 @@ dependencies:
   - setuptools
   - seaborn
   - pandas
+  - code-server
   - pip:
     - jupyter-resource-usage
     - jupyterlab_latex
@@ -21,6 +22,4 @@ dependencies:
     - jupyterlab-tour
     - ipympl
     - jupyterlab-s3-browser
-    - conda-forge
     - jupyter-vscode-proxy
-    
