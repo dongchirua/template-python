@@ -8,8 +8,8 @@ dependencies:
   - python=3.9.*
   - jupyterlab>=3.1.* # enable debugger for notebook
   - ipykernel>=6  # enable debugger for notebook
-  - jupyter-server-proxy
-  - code-server >=3.2
+#   - jupyter-server-proxy
+#   - code-server >=3.2
   - conda-lock
   - setuptools
   - seaborn
@@ -23,4 +23,4 @@ dependencies:
     - jupyterlab-tour
     - ipympl
     - jupyterlab-s3-browser
-    - jupyter-vscode-proxy
+#     - jupyter-vscode-proxy
