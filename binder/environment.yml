@@ -21,5 +21,6 @@ dependencies:
     - jupyterlab-tour
     - ipympl
     - jupyterlab-s3-browser
-
+    - conda-forge
+    - jupyter-vscode-proxy
     
