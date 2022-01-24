@@ -13,3 +13,6 @@ python -m pip install \
   dbt-redshift \
   dbt-snowflake \
   dbt-bigquery
+  
+code-server --install-extension ms-python.python
+code-server --install-extension ms-toolsai.jupyter
