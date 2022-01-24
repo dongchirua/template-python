@@ -22,5 +22,4 @@ dependencies:
     - jupyter-archive
     - jupyterlab-tour
     - ipympl
-    - jupyterlab-s3-browser
     - jupyter-vscode-proxy
